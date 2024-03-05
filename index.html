@@ -22,7 +22,11 @@
         </div>
     
         <div class="camera-container">
-            <button class="start-btn" type="button" onclick="init()">Start</button>
+            <div>
+                <button class="start-btn" type="button" onclick="init()">Start</button>
+                <button class="stop-btn" type="button" onclick="stop()">Stop</button>
+            </div>
+
     
             <div id="webcam-container"></div>
             <div id="label-container"></div>
@@ -123,6 +127,10 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
+
+    function stop() {
+    webcam.stop();
+}
 </script>
 
 

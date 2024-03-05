@@ -60,6 +60,19 @@ img{
   margin-bottom: 5rem;
 }
 
+.stop-btn {
+    width: 10rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: linear-gradient(0deg, rgb(131, 22, 22) 0%, rgb(201, 32, 32) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #00000098;
+    border-radius: 20em;
+    text-align: center;
+}
+
 .bottom {
     display: flex;
     flex-direction: column;
